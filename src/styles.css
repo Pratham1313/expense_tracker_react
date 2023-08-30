@@ -1,0 +1,155 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  width: 95%;
+  margin: auto;
+
+  background-color: black;
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.income_submitted {
+  display: none;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.stat {
+  width: 35vw;
+  height: 12vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: purple 0.2rem solid;
+  background-color: rgb(207, 56, 207);
+  display: flex;
+  flex-direction: column;
+}
+.stat_positive {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 12vh;
+  border: green 0.2rem solid;
+  background-color: rgb(72, 134, 72);
+}
+.stat_negative {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 12vh;
+  border: red 0.2rem solid;
+  background-color: rgb(207, 78, 78);
+}
+
+.display_list {
+  width: 60vw;
+  background-color: rgb(214, 165, 165);
+  margin: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.ull {
+  display: flex;
+  gap: 1rem;
+}
+
+li {
+  display: flex;
+  gap: 2rem;
+}
+
+h1,
+p {
+  color: white;
+}
+h1 {
+  margin: 2rem;
+}
+
+button {
+  border: white.1rem solid;
+  color: white;
+  width: 5rem;
+  margin: 0.2rem;
+  margin: auto;
+  height: 1.5rem;
+}
+
+input {
+  border: white.1rem solid;
+  width: 15rem;
+  color: white;
+}
+
+.incomeee {
+  display: flex;
+  flex-direction: column;
+}
+
+.show {
+  border: white 0.2rem solid;
+}
+
+.show li {
+  margin: 0.4rem;
+}
+span {
+  color: white;
+}
+
+.change_income,
+.submit {
+  width: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background-color: rgb(46, 46, 46);
+  transition: 0.7s;
+}
+.change_income:hover,
+.submit:hover {
+  background-color: rgb(255, 0, 0);
+}
+.change_incomee {
+  width: 5rem;
+  background-color: rgb(46, 46, 46);
+  transition: 0.4s;
+}
+
+.change_incomee:hover {
+  background-color: rgb(101, 187, 85);
+}
+
+.submit {
+  width: 6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.change_income:active,
+.submit:active {
+  background-color: green;
+}
+
+.delete_button {
+  color: red;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: none;
+  border: none;
+  transition: 0.35s;
+}
+
+.delete_button:hover {
+  border: 0.1rem solid green;
+}
